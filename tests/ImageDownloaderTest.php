@@ -109,7 +109,16 @@ class ImageDownloaderTest extends PHPUnit_Framework_TestCase
             ->load('http://www.sourcecertain.com/img/Example.png');
     }
 
-
+    /**
+     * @expectedException Tapakan\ImageDownloader\Exception\UnknownDriverException
+     */
+    public function testUnknownDriverException()
+    {
+        $manager = new Manager([
+            'driver' => 'ftp'
+        ]);
+        $manager->getDownloader();
+    }
 
     /**
      * @return Manager
