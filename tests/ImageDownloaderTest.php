@@ -1,6 +1,6 @@
 <?php
 /**
- * LoaderTest
+ * ImageDownloaderTest
  *
  * @version     0.0.1
  * @license     http://mit-license.org/
@@ -14,7 +14,7 @@ use PHPUnit_Framework_TestCase;
 use Tapakan\ImageDownloader\Manager;
 
 /**
- * Class LoaderTest
+ * Class ImageDownloaderTest
  **/
 class ImageDownloaderTest extends PHPUnit_Framework_TestCase
 {
