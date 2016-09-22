@@ -32,7 +32,7 @@ class Driver extends AbstractDriver implements DriverInterface
         $data = (array)$data;
 
         if (!empty($data)) {
-            foreach ($data as $key => $path) {
+            foreach ($data as $path) {
                 $filename = basename($path);
 
                 if ($this->isExists($path) &&
