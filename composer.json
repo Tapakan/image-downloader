@@ -1,0 +1,35 @@
+{
+  "name"       : "tapakan/image-loader",
+  "description": "PHP lib for download images from remote host",
+  "version"    : "0.0.1",
+  "keywords"   : [
+    "image",
+    "downloader",
+    "remote"
+  ],
+  "homepage"   : "https://github.com/Tapakan/image-downloader.git",
+  "license"    : "MIT",
+  "authors"    : [
+    {
+      "name" : "Alexander Oganov",
+      "email": "t_tapak@yahoo.com",
+      "role" : "Developer"
+    }
+  ],
+  "require"    : {
+    "php": ">=5.6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.5.*"
+  },
+  "autoload"   : {
+    "psr-4": {
+      "Tapakan\\ImageDownloader\\": "src"
+    }
+  },
+  "extra"      : {
+    "branch-alias": {
+      "dev-master": "1.x-dev"
+    }
+  }
+}
