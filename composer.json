@@ -1,5 +1,5 @@
 {
-  "name"       : "tapakan/image-loader",
+  "name"       : "tapakan/image-downloader",
   "description": "PHP lib for download images from remote host",
   "version"    : "0.0.1",
   "keywords"   : [
