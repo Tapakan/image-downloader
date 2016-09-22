@@ -17,4 +17,8 @@ use Tapakan\ImageDownloader\Manager;
 
 $manager = new Manager();
 $manager->getDownloader()->load('http://example.com/path_to_img');
+$manager->getDownloader()->load([
+    'http://example.com/path_to_img',
+    'http://example.com/path_to_img'
+]);
 ```
