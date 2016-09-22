@@ -83,7 +83,7 @@ class ImageDownloaderTest extends PHPUnit_Framework_TestCase
     /**
      *
      */
-    public function testChangeParameter()
+    public function testCheckInvalidMimeTypes()
     {
         $manager = $this->getManager();
 
