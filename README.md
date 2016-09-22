@@ -4,14 +4,14 @@
 ## USE
 
 Add to require section
-```
+```php
   "require" : {
     "tapakan/image-downloader" : "0.0.1"
   }
 ```
 ## DEMO
 
-```
+```php
 require('vendor/autoload.php');
 use Tapakan\ImageDownloader\Manager;
 
